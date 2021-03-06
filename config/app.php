@@ -1,6 +1,8 @@
 <?php
 
 return [
+    
+    'log' => 'errorlog',
 
     /*
     |--------------------------------------------------------------------------
@@ -40,6 +42,7 @@ return [
     */
 
     'debug' => env('APP_DEBUG', false),
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -230,7 +233,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Image' => Intervention\Image\Facades\Image::class,
         'Image' => Intervention\Image\Facades\Image::class,
-        'Image' => Intervention\Image\Facades\Image::class
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];
