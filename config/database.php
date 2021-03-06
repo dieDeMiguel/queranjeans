@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'queranjeans'),
+            'database' => env('DB_DATABASE', 'mariano'),
             'username' => env('DB_USERNAME', 'diedemiguel'),
             'password' => env('DB_PASSWORD', 'c7827174'),
             'unix_socket' => env('DB_SOCKET', ''),
